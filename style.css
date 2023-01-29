@@ -1,0 +1,143 @@
+/*google fonts importando*/
+/**/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/*reset css*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*reset body font css*/
+body{
+    font-size: 100%;
+    /* background gradient do figma*/
+    background: linear-gradient(68.15deg, rgba(32, 32, 32, 0.92) 16.62%, #8673F9 85.61%);
+}
+/*uso do flex box https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.cabeçalho{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+/*tamalho do logo*/
+.cabeçalho-imagem{
+    height: 72px;
+}
+/*espaço entre os itens do menu*/
+.menu{
+    display: flex;
+    gap: 32px;
+    
+}
+/*fonte do itens do menu google fonte*/
+.menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* css do conteudo do main*/
+.conteudo{
+    border-top: 0.42px solid #FFF2E7;
+    margin-bottom: 48px;
+
+}
+/* css do conteudo principal escrito*/
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/*conteudo escrito div pai */
+.conteudo-principal-escrito{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+/*conteudo escrito titulo */
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    /*peso da fonte */
+    font-weight: 700;
+    /*tamanho da fonte */
+    font-size:64px ;
+    color: #FFF2E7;
+}
+/*conteudo escrito sub titulo */
+.conteudo-principal-escrito-subtitolo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+.conteudo-principal-escrito-botao{
+    background-color: #FFF2E7;
+    Width: 180px;
+    Height: 60px;
+    border: none;
+    /*sombra no botao*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    /*fim da sombra no botao*/
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+/**/
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgb(6, 156, 39);
+
+}
+
+.imagem-principal-escrito{
+    height: 430px;
+    margin-top: 42px;
+}
+/*conteudo escrito segunda pagina*/
+.conteudo-secudario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.conteudo-secudario-titulo{
+    border-top:  0.42px solid #FFF2E7 ;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    /*peso da fonte */
+    font-weight: 400;
+    /*tamanho da fonte */
+    font-size:24px ;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+
+}
+.conteudo-secudario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+.rodape{
+    border-top:  0.42px solid #FFF2E7 ;
+    padding-top: 32px;
+
+}
+.rodape-imagem{
+    /*centralizando um unico item*/
+    height: 48px;
+    display: block;
+    margin: 0% auto;
+}
